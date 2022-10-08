@@ -1,4 +1,7 @@
 .nav-links
-    each n in global.nav
-        div 
-            a(href=n.url) n.title
+
+pre #{JSON.stringify(self.path, 0, 2)}
+- console.log(self.path, JSON.stringify(self.data, 0, 2))
+    //- each n in data.nav
+    //-     div 
+    //-         a(href=n.url) n.title
