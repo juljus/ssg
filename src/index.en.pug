@@ -1,0 +1,12 @@
+extends /_templates/layout.pug
+
+block contents
+    h1 Welcome!
+    p 
+        | This website is generated using 
+        a(href="https://entu.site/") entu ssg
+    +test_mixin
+    a#language-btn(href="../") Eesti
+
+block title 
+    | Website

@@ -1,0 +1,13 @@
+extends /_templates/layout.pug
+
+block contents
+    h1 Tere tulemast!
+    p 
+        | See veebileht on genereeritud 
+        a(href="https://entu.site/") entu ssg
+        |  abil
+    +test_mixin
+    a#language-btn(href="./en") English
+
+block title 
+    | Veebileht

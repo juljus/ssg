@@ -1,0 +1,10 @@
+nav:
+  -
+    url: /en
+    title: about us
+  -
+    url: /en/calendar
+    title: calendar
+  -
+    url: /en/news
+    title: news

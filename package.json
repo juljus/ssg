@@ -1,0 +1,15 @@
+{
+  "name": "ssg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": ". ./dev.sh",
+    "build": ". ./build.sh"
+  },
+  "author": "juljus",
+  "license": "ISC",
+  "devDependencies": {
+    "entu-ssg": "5.6.2"
+  }
+}

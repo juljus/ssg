@@ -1,0 +1,11 @@
+include /_templates/mixins.pug
+doctype html
+head
+    title 
+        block title
+            | Veebilehe pealkiri
+body
+    header
+        include /_templates/navbar.pug
+    block contents
+        h1 sisu pole, pahapaha

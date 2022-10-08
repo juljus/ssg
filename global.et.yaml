@@ -1,0 +1,10 @@
+nav:
+  -
+    url: /
+    title: meie kohta
+  -
+    url: /kalender
+    title: kalender
+  -
+    url: /uudised
+    title: uudised
